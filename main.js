@@ -24,6 +24,9 @@ var HAKKA="./images/1st_twicon17_hakka.png";
 
 var YUZUKO="./images/1st_twicon20_yuzuko.png";
 var YUI_S="./images/1st_twicon21_yui_s.png";
+var YUI_S2="./images/2nd_twicon11_yui.png";
+var YUKARI="./images/2nd_twicon12_yukari.png";
+var AIKAWASAN="./images/2nd_twicon13_aikawasan.png";
 var YORIKO="./images/1st_twicon22_yoriko.png";
 var CHIYA="./images/1st_twicon36_chiya.png";
 var KON="./images/1st_twicon37_kon.png";
@@ -34,39 +37,63 @@ var YU="./images/1st_twicon43_yu.png";
 var HANA="./images/1st_twicon47_hana.png";
 var KAMURI="./images/1st_twicon48_kamuri.png";
 var TAMATE="./images/1st_twicon49_tamate.png";
+var HANNENSAN="./images/2nd_twicon26_hannensan.png";
 var YUI_H="./images/1st_twicon55_yui_h.png";
 var AZUSA="./images/1st_twicon56_azusa.png";
 
 var KAREN="./images/1st_twicon27_karen.png";
 var SHINOBU="./images/1st_twicon28_shinobu.png";
+var ALICE="./images/2nd_twicon14_alice.png";
+var HONOKA="./images/2nd_twicon15_honoka.png";
 var TAMAKI="./images/1st_twicon32_tamaki.png";
 var KAYO="./images/1st_twicon33_kayo.png";
 var KAOSU="./images/1st_twicon52_kaosu.png";
+var KOYUME="./images/2nd_twicon29_koyume.png";
 var COCOA="./images/1st_twicon58_cocoa.png";
 var CHINO="./images/1st_twicon59_chino.png";
+var RIZE="./images/2nd_twicon32_rize.png";
+var CHIYA="./images/2nd_twicon33_chiya.png";
+var SYARO="./images/2nd_twicon34_syaro.png";
+var MAYA="./images/2nd_twicon35_maya.png";
+var MEGU="./images/2nd_twicon36_megu.png";
 
 var YUKI="./images/1st_twicon29_yuki.png";
 var KURUMI="./images/1st_twicon30_kurumi.png";
 var YURI="./images/1st_twicon31_yuri.png";
+var MIKUN="./images/2nd_twicon16_mikun.png";
+var MEGUNEE="./images/2nd_twicon17_megunee.png";
 var RIN="./images/1st_twicon50_rin.png";
+var NADESHIKO="./images/2nd_twicon27_nadeshiko.png";
+var AOI="./images/2nd_twicon28_aoi.png";
 var MERRY="./images/1st_twicon46_merry.png";
+var ISANA="./images/2nd_twicon24_isana.png";
+var ENGI="./images/2nd_twicon25_engi.png";
 var NARU="./images/1st_twicon51_naru.png";
 var HANAKO="./images/1st_twicon53_hanako.png";
 var HIBARI="./images/1st_twicon54_hibari.png";
+var BOTAN="./images/2nd_twicon30_botan.png";
 var HARUKA_O="./images/1st_twicon57_haruka_o.png";
+var KANATA="./images/2nd_twicon31_kanata.png";
 
 var YUNO="./images/1st_twicon18_yuno.png";
 var MIYAKO="./images/1st_twicon19_miyako.png";
+var HIRO="./images/2nd_twicon10_hiro.png";
 var TORU="./images/1st_twicon23_toru.png";
 var RUN="./images/1st_twicon24_run.png";
 var YUKO="./images/1st_twicon25_yuko.png";
 var NAGI="./images/1st_twicon26_nagi.png";
 var AOBA="./images/1st_twicon34_aoba.png";
 var HIFUMI="./images/1st_twicon35_hifumi.png";
+var RIN="./images/2nd_twicon18_rin.png";
+var UMIKO="./images/2nd_twicon19_umiko.png";
+var MOMIJI="./images/2nd_twicon20_momiji.png";
+var TSUBAME="./images/2nd_twicon21_tsubame.png";
+var HOTARU="./images/2nd_twicon22_hotaru.png";
 var YASUNA="./images/1st_twicon40_yasuna.png";
 var SONYA="./images/1st_twicon41_sonya.png";
 var MAIKA="./images/1st_twicon44_maika.png";
 var MAFUYU="./images/1st_twicon45_mafuyu.png";
+var KAHO="./images/2nd_twicon23_kaho.png";
 var KOHANE="./images/1st_twicon60_kohane.png";
 
 var CLEA="./images/clea.png";
@@ -92,7 +119,7 @@ window.onload=function(){
     game.preload(KUROMON);
     game.preload(SUGAR);
     game.preload(CESAME);
-    game.preload(CARDAMOM);	
+    game.preload(CARDAMOM);
     game.preload(SALT);
     game.preload(GINGER);
     game.preload(FENNEL);
@@ -100,6 +127,9 @@ window.onload=function(){
 
     game.preload(YUZUKO);
     game.preload(YUI_S);
+    game.preload(YUI_S2);
+    game.preload(YUKARI);
+    game.preload(AIKAWASAN);
     game.preload(YORIKO);
     game.preload(CHIYA);
     game.preload(KON);
@@ -110,39 +140,63 @@ window.onload=function(){
     game.preload(HANA);
     game.preload(KAMURI);
     game.preload(TAMATE);
+    game.preload(HANNENSAN);
     game.preload(YUI_H);
     game.preload(AZUSA);
 
     game.preload(KAREN);
     game.preload(SHINOBU);
+    game.preload(ALICE);
+    game.preload(HONOKA);
     game.preload(TAMAKI);
     game.preload(KAYO);
     game.preload(KAOSU);
+    game.preload(KOYUME);
     game.preload(COCOA);
     game.preload(CHINO);
+    game.preload(RIZE);
+    game.preload(CHIYA);
+    game.preload(SYARO);
+    game.preload(MAYA);
+    game.preload(MEGU);
 
     game.preload(YUKI);
     game.preload(KURUMI);
     game.preload(YURI);
+    game.preload(MIKUN);
+    game.preload(MEGUNEE);
     game.preload(RIN);
+    game.preload(NADESHIKO);
+    game.preload(AOI);
     game.preload(MERRY);
+    game.preload(ISANA);
+    game.preload(ENGI);
     game.preload(NARU);
     game.preload(HANAKO);
     game.preload(HIBARI);
+    game.preload(BOTAN);
     game.preload(HARUKA_O);
+    game.preload(KANATA);
 
     game.preload(YUNO);
     game.preload(MIYAKO);
+    game.preload(HIRO);
     game.preload(TORU);
     game.preload(RUN);
     game.preload(YUKO);
     game.preload(NAGI);
     game.preload(AOBA);
     game.preload(HIFUMI);
+    game.preload(RIN);
+    game.preload(UMIKO);
+    game.preload(MOMIJI);
+    game.preload(TSUBAME);
+    game.preload(HOTARU);
     game.preload(YASUNA);
     game.preload(SONYA);
     game.preload(MAIKA);
     game.preload(MAFUYU);
+    game.preload(KAHO);
     game.preload(KOHANE);
 
     game.preload(CLEA);
@@ -151,7 +205,7 @@ window.onload=function(){
         //ルートシーン
         var scene=game.rootScene;
         scene.backgroundColor="black";  //背景色
-        
+
         //空のエンティティクラス
         var EmptyEntity=Class.create(Entity,{
             initialize:function(X,Y,width,height){
@@ -184,7 +238,7 @@ window.onload=function(){
             	this.entity.coloring(color,opacity);
             }
         });
-        
+
         //ゲームラベルクラス
         var GameLabel=Class.create(Label,{
             initialize:function(text,X,Y,px,color){
@@ -352,54 +406,54 @@ window.onload=function(){
         		this.setting_bg=new EmptyEntity(0,0,640,640);
         		this.setting_bg.coloring("black",0.7);
         		this.setting_group.addChild(this.setting_bg);
-				this.setting_group.addChild(new GameLabel("FILTER",250,13,36,"white"));
+				    this.setting_group.addChild(new GameLabel("FILTER",250,13,36,"white"));
 
-				//タイトルラベル
-				for(i=0,l=chara_list[0].length;i<l;i++){
-					this.setting_group.addChild(new GameLabel(chara_list[0][i].name,5,80+45*i,24,"white"));
-				}
-				for(i=0,l=chara_list[1].length;i<l;i++){
-					this.setting_group.addChild(new GameLabel(chara_list[1][i].name,325,80+45*i,24,"white"));
-				}
-				for(i=0,l=chara_list[2].length;i<l;i++){
-					this.setting_group.addChild(new GameLabel(chara_list[2][i].name,5,340+45*i,24,"white"));
-				}
-				for(i=0,l=chara_list[3].length;i<l;i++){
-					this.setting_group.addChild(new GameLabel(chara_list[3][i].name,325,340+45*i,24,"white"));
-				}
+    				//タイトルラベル
+    				for(i=0,l=chara_list[0].length;i<l;i++){
+    					this.setting_group.addChild(new GameLabel(chara_list[0][i].name,5,80+45*i,24,"white"));
+    				}
+    				for(i=0,l=chara_list[1].length;i<l;i++){
+    					this.setting_group.addChild(new GameLabel(chara_list[1][i].name,325,80+45*i,24,"white"));
+    				}
+    				for(i=0,l=chara_list[2].length;i<l;i++){
+    					this.setting_group.addChild(new GameLabel(chara_list[2][i].name,5,340+45*i,24,"white"));
+    				}
+    				for(i=0,l=chara_list[3].length;i<l;i++){
+    					this.setting_group.addChild(new GameLabel(chara_list[3][i].name,325,340+45*i,24,"white"));
+    				}
 
-				//戻るボタン
-				this.setting_entity=new EmptyEntity(0,0,640,640);
+    				//戻るボタン
+    				this.setting_entity=new EmptyEntity(0,0,640,640);
         		this.setting_entity.ontouchstart=function(){this.parentNode.parentNode.removeChild(this.parentNode);};
         		this.setting_group.addChild(this.setting_entity);
 
         		//ON-OFFボタン
-				this.button_entity=new EmptyEntity(210,62,90,240);
-				this.button_entity.coloring("gray",0.6);
-				this.setting_group.addChild(this.button_entity);
-				this.button_entity2=new EmptyEntity(530,62,90,196);
-				this.button_entity2.coloring("gray",0.6);
-				this.setting_group.addChild(this.button_entity2);
-				this.button_entity3=new EmptyEntity(210,322,90,285);
-				this.button_entity3.coloring("gray",0.6);
-				this.setting_group.addChild(this.button_entity3);
-				this.button_entity4=new EmptyEntity(530,322,90,285);
-				this.button_entity4.coloring("gray",0.6);
-				this.setting_group.addChild(this.button_entity4);
-				for(i=0,l=chara_list[0].length;i<l;i++){
-					this.setting_group.addChild(new FilterButton(220,74+45*i,chara_list[0][i].filter,0,i));
-				}
-				for(i=0,l=chara_list[1].length;i<l;i++){
-					this.setting_group.addChild(new FilterButton(540,74+45*i,chara_list[1][i].filter,1,i));
-				}
-				for(i=0,l=chara_list[2].length;i<l;i++){
-					this.setting_group.addChild(new FilterButton(220,334+45*i,chara_list[2][i].filter,2,i));
-				}
-				for(i=0,l=chara_list[3].length;i<l;i++){
-					this.setting_group.addChild(new FilterButton(540,334+45*i,chara_list[3][i].filter,3,i));
-				}
-				this.setting_group.checkNumber=function(id){return this.parentNode.checkFilter(id);};
-				this.setting_group.change=function(filter,id,number){this.parentNode.changeFilter(filter,id,number);};
+    				this.button_entity=new EmptyEntity(210,62,90,240);
+    				this.button_entity.coloring("gray",0.6);
+    				this.setting_group.addChild(this.button_entity);
+    				this.button_entity2=new EmptyEntity(530,62,90,196);
+    				this.button_entity2.coloring("gray",0.6);
+    				this.setting_group.addChild(this.button_entity2);
+    				this.button_entity3=new EmptyEntity(210,322,90,285);
+    				this.button_entity3.coloring("gray",0.6);
+    				this.setting_group.addChild(this.button_entity3);
+    				this.button_entity4=new EmptyEntity(530,322,90,285);
+    				this.button_entity4.coloring("gray",0.6);
+    				this.setting_group.addChild(this.button_entity4);
+    				for(i=0,l=chara_list[0].length;i<l;i++){
+    					this.setting_group.addChild(new FilterButton(220,74+45*i,chara_list[0][i].filter,0,i));
+    				}
+    				for(i=0,l=chara_list[1].length;i<l;i++){
+    					this.setting_group.addChild(new FilterButton(540,74+45*i,chara_list[1][i].filter,1,i));
+    				}
+    				for(i=0,l=chara_list[2].length;i<l;i++){
+    					this.setting_group.addChild(new FilterButton(220,334+45*i,chara_list[2][i].filter,2,i));
+    				}
+    				for(i=0,l=chara_list[3].length;i<l;i++){
+    					this.setting_group.addChild(new FilterButton(540,334+45*i,chara_list[3][i].filter,3,i));
+    				}
+    				this.setting_group.checkNumber=function(id){return this.parentNode.checkFilter(id);};
+    				this.setting_group.change=function(filter,id,number){this.parentNode.changeFilter(filter,id,number);};
         	},
         	checkFilter:function(id){
         		return this.filter_num[id]>1;
@@ -515,13 +569,13 @@ window.onload=function(){
         			for(var j=l-1;j>=0;j--){
         				this.board[j][i]=this.decideIcon();
         				this.icon.addChild(new Icon(this.decideIconImage(this.board[j][i]),j,i,l));
-					}
+					    }
         		}
         		this.tl.delay((0.1*max+0.1)*game.fps).then(function(){
         			this.erase();
         		});
         	},
-        	checkComplete:function(i,j,num){ //同じ種類が3つ以上揃ったかどうか判定
+        	checkComplete:function(i,j,num){ //同じ種類が4つ以上揃ったかどうか判定
         		num++;
         		this.array.push([i,j]);
         		this.table[i][j]=1; //調査済みにする
@@ -550,17 +604,17 @@ window.onload=function(){
         			for(j=0;j<8;j++){
         				if(this.board[i][j]===0){continue;} //既に消されているならスキップ
         				this.array=[];
-        				num=this.checkComplete(i,j,0); //同じ種類が3つ以上揃ったかどうか判定
-						if(num>=3||this.board[i][j]==5){ //3つ以上かきらら達
-							for(var k=0,l=this.array.length;k<l;k++){
-								if(this.board[this.array[k][0]][this.array[k][1]]==6){ //七賢者
-									this.vs_hp--;
-								}
-								this.board[this.array[k][0]][this.array[k][1]]=0;
-								this.addScore(this.chain_num); //スコア追加
-							}
-							flag=true;
-						}
+        				num=this.checkComplete(i,j,0); //同じ種類が4つ以上揃ったかどうか判定
+      					if(num>=3||this.board[i][j]==5){ //3つ以上かきらら達
+      						for(var k=0,l=this.array.length;k<l;k++){
+      							if(this.board[this.array[k][0]][this.array[k][1]]==6){ //七賢者
+      								this.vs_hp--;
+      							}
+      							this.board[this.array[k][0]][this.array[k][1]]=0;
+      							this.addScore(this.chain_num); //スコア追加
+      						}
+      						flag=true;
+      					}
         			}
         		}
 
@@ -573,13 +627,20 @@ window.onload=function(){
         				}
         			}
 
+              se2.play(); //SE
+
         			this.addScore(1000+1000*this.vs); //スコア追加
         			this.vs_bonus=true; //ボーナスステージ
 
         			//次の七賢者へ
         			this.vs=(this.vs+1)%8;
         			this.vs_hp=this.getHp();
-       				this.vs_sprite.image=game.assets[vs_list[this.vs]];
+              this.vs_sprite.tl.clear().scaleTo(1.5,1.5,0.4*game.fps).and().fadeTo(0.4,0.4*game.fps).then(()=>{
+                this.vs_sprite.scaleX=1;
+                this.vs_sprite.scaleY=1;
+                this.vs_sprite.opacity=1;
+                this.vs_sprite.image=game.assets[vs_list[this.vs]];
+              });
        			}
        			this.hp_label.text=this.vs_hp;
 
@@ -590,6 +651,17 @@ window.onload=function(){
         					this.icon.childNodes[i].end();
         				}
         			}
+
+              //SE
+              if(this.chain_num%3==1){
+                se1a.play();
+              }
+              else if(this.chain_num%3==2){
+                se1b.play();
+              }
+              else{
+                se1c.play();
+              }
 
         			this.chain_num++; //連鎖数増加
         			this.chain_label.text=this.chain_num;
@@ -618,7 +690,7 @@ window.onload=function(){
         				if(this.board[i][j]===0){this.drop_list[j]++;} //消えたものカウント
         				else{
         					for(k=i+1;k<9;k++){
-    							if(this.board[k][j]!==0){break;}
+                    if(this.board[k][j]!==0){break;}
         					}
         					if(k!=i+1){
         						this.board[k-1][j]=this.board[i][j];
@@ -748,6 +820,8 @@ window.onload=function(){
         			}
         		}
 
+            se3.play(); //SE
+
         		this.updateTool(); //ツール更新
 
         		this.chain_num=0; //連鎖リセット
@@ -770,7 +844,7 @@ window.onload=function(){
         		this.end_group.addChild(new GameLabel("SETTING",520+4,580+15,24,"white"));
         		this.setting_entity=new EmptyEntity(520,580,110,50);
         		this.setting_entity.ontouchstart=function(){this.parentNode.parentNode.showSetting();};
-				this.end_group.addChild(this.setting_entity);
+				    this.end_group.addChild(this.setting_entity);
         	},
         	closeEnd:function(){
         		this.removeChild(this.end_group);
@@ -792,31 +866,31 @@ window.onload=function(){
 
         //キャラ一覧
         var chara_list=[[
-        		//きらら＆ミラク
-        		{name:"ゆゆ式",filter:true,member:[YUZUKO,YUI_S,YORIKO]},
-        		{name:"うらら迷路帖",filter:true,member:[CHIYA,KON,KOUME_C,NONO]},
-        		{name:"桜Trick",filter:true,member:[HARUKA_T,YU]},
-        		{name:"スロウスタート",filter:true,member:[HANA,KAMURI,TAMATE]},
-        		{name:"けいおん！",filter:true,member:[YUI_H,AZUSA]}],[
-        		//MAX
-        		{name:"きんいろモザイク",filter:true,member:[KAREN,SHINOBU]},
-        		{name:"ステラのまほう",filter:true,member:[TAMAKI,KAYO]},
-        		{name:"こみっくがーるず",filter:true,member:[KAOSU]},
-        		{name:"ごちうさ",filter:true,member:[COCOA,CHINO]}],[
-        		//フォワード
-        		{name:"がっこうぐらし！",filter:true,member:[YUKI,KURUMI,YURI]},
-        		{name:"ゆるキャン△",filter:true,member:[RIN]},
-        		{name:"夢喰いメリー",filter:true,member:[MERRY]},
-        		{name:"ハナヤマタ",filter:true,member:[NARU]},
-        		{name:"あんハピ♪",filter:true,member:[HANAKO,HIBARI]},
-        		{name:"はるかなレシーブ",filter:true,member:[HARUKA_O]}],[
-        		//キャラット
-        		{name:"ひだまりスケッチ",filter:true,member:[YUNO,MIYAKO]},
-        		{name:"Aチャンネル",filter:true,member:[TORU,RUN,YUKO,NAGI]},
-        		{name:"NEW GAME!",filter:true,member:[AOBA,HIFUMI]},
-        		{name:"キルミーベイベー",filter:true,member:[YASUNA,SONYA]},
-        		{name:"ブレンド・S",filter:true,member:[MAIKA,MAFUYU]},
-        		{name:"アニマエール!",filter:true,member:[KOHANE]}]
+      		//きらら＆ミラク
+      		{name:"ゆゆ式",filter:true,member:[YUZUKO,YUI_S,YUI_S2,YUKARI,AIKAWASAN,YORIKO]},
+      		{name:"うらら迷路帖",filter:true,member:[CHIYA,KON,KOUME_C,NONO]},
+      		{name:"桜Trick",filter:true,member:[HARUKA_T,YU]},
+      		{name:"スロウスタート",filter:true,member:[HANA,KAMURI,TAMATE,HANNENSAN]},
+      		{name:"けいおん！",filter:true,member:[YUI_H,AZUSA]}],[
+      		//MAX
+      		{name:"きんいろモザイク",filter:true,member:[KAREN,SHINOBU,ALICE,HONOKA]},
+      		{name:"ステラのまほう",filter:true,member:[TAMAKI,KAYO]},
+      		{name:"こみっくがーるず",filter:true,member:[KAOSU,KOYUME]},
+      		{name:"ごちうさ",filter:true,member:[COCOA,CHINO,RIZE,CHIYA,SYARO,MAYA,MEGU]}],[
+      		//フォワード
+      		{name:"がっこうぐらし！",filter:true,member:[YUKI,KURUMI,YURI,MIKUN,MEGUNEE]},
+      		{name:"ゆるキャン△",filter:true,member:[RIN,NADESHIKO,AOI]},
+      		{name:"夢喰いメリー",filter:true,member:[MERRY,ISANA,ENGI]},
+      		{name:"ハナヤマタ",filter:true,member:[NARU]},
+      		{name:"あんハピ♪",filter:true,member:[HANAKO,HIBARI,BOTAN]},
+      		{name:"はるかなレシーブ",filter:true,member:[HARUKA_O,KANATA]}],[
+      		//キャラット
+      		{name:"ひだまりスケッチ",filter:true,member:[YUNO,MIYAKO,HIRO]},
+      		{name:"Aチャンネル",filter:true,member:[TORU,RUN,YUKO,NAGI]},
+      		{name:"NEW GAME!",filter:true,member:[AOBA,HIFUMI,RIN,UMIKO,MOMIJI,TSUBAME,HOTARU]},
+      		{name:"キルミーベイベー",filter:true,member:[YASUNA,SONYA]},
+      		{name:"ブレンド・S",filter:true,member:[MAIKA,MAFUYU,KAHO]},
+      		{name:"アニマエール!",filter:true,member:[KOHANE]}]
         ];
         var vs_list=[SUGAR,CESAME,CARDAMOM,SALT,GINGER,FENNEL,HAKKA,ARCHIVE];
 
@@ -850,6 +924,28 @@ window.onload=function(){
         entity6.coloring("black",0.5);
         scene.addChild(entity6);
         scene.addChild(new GameLabel("TIME",528,23,24,"white")) //TIMEラベル
+
+        //BGM
+        var bgm=new Audio("./audio/bgm_maoudamashii_fantasy05.mp3");
+        bgm.play();
+        bgm.volume=0.5;
+        bgm.loop=true;
+        // bgm.addEventListener("ended",()=>{
+        //   bgm.currentTime=0;
+        //   bgm.play();
+        // });
+
+        //SE
+        var se1a=new Audio("./audio/se_maoudamashii_system48.mp3"); //アイコン消滅
+        se1a.volume=0.5;
+        var se1b=new Audio("./audio/se_maoudamashii_system48.mp3");
+        se1b.volume=0.5;
+        var se1c=new Audio("./audio/se_maoudamashii_system48.mp3");
+        se1c.volume=0.5;
+        var se2=new Audio("./audio/se_maoudamashii_element_darkness01.mp3"); //七賢者撃破
+        se2.volume=0.4;
+        var se3=new Audio("./audio/se_maoudamashii_system10.mp3"); //タッチ
+        se3.volume=0.4;
 
         //制御クラス
         scene.addChild(new Control());
